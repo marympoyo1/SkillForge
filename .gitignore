@@ -1,4 +1,4 @@
-skillforge-backend/firebase-service-account.json
+arcoria-backend/firebase-service-account.json
 .env
 node_modules
 dist

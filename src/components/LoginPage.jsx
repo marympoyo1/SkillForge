@@ -75,7 +75,7 @@ const LoginPage = () => {
 
           <img
             src={teamIllustration}
-            alt="People using SkillForge"
+            alt="People using Arcoria"
             className="w-72 rounded-md shadow mt-6"
           />
         </div>

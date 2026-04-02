@@ -15,7 +15,7 @@ app.use(express.json()); // For parsing JSON bodies
 
 // Basic test route
 app.get('/', (req, res) => {
-  res.send('Hello from SkillForge Backend!');
+  res.send('Hello from Arcoria Backend!');
 });
 
 app.listen(port, () => {

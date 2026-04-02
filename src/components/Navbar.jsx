@@ -11,7 +11,7 @@ const Navbar = ({ isLoggedIn, onLogout }) => {
           to="/"
           className="text-2xl font-extrabold text-green-600 hover:text-green-700 transition-colors duration-200"
         >
-          SkillForge
+          Arcoria
         </Link>
 
         {/* Navigation */}

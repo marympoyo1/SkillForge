@@ -13,7 +13,7 @@ const Home = () => {
         {/* Left */}
         <div className="space-y-6">
           <h1 className="text-5xl font-extrabold text-green-600 leading-tight">
-            Welcome to <span className="text-gray-900">SkillForge</span>
+            Welcome to <span className="text-gray-900">Arcoria</span>
           </h1>
           <p className="text-lg text-gray-600">
             Explore curated tech learning paths powered by YouTube. Build real-world skills and track your journey from beginner to pro.
@@ -52,7 +52,7 @@ const Home = () => {
   <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
     {/* Column 1: Brand */}
     <div>
-      <h3 className="text-sm font-semibold text-gray-800 mb-1">SkillForge</h3>
+      <h3 className="text-sm font-semibold text-gray-800 mb-1">Arcoria</h3>
       <p className="text-[11px] leading-relaxed">
         Empowering students to master tech skills through engaging,
         curated learning paths.
@@ -83,7 +83,7 @@ const Home = () => {
     <div>
       <h3 className="text-sm font-semibold text-gray-800 mb-1">Contact</h3>
       <ul className="space-y-1 text-[11px]">
-        <li>Email: <a href="mailto:support@skillforge.com" className="hover:underline text-green-700">support@skillforge.com</a></li>
+        <li>Email: <a href="mailto:support@arcoria.com" className="hover:underline text-green-700">support@arcoria.com</a></li>
         <li>Phone: <span className="text-gray-700">+1 (555) 123-4567</span></li>
         <li>Address: <span className="text-gray-700">Houston, TX</span></li>
       </ul>
@@ -92,7 +92,7 @@ const Home = () => {
 
   {/* Bottom Bar */}
   <div className="mt-4 text-center text-[10px] text-gray-400">
-    © 2025 SkillForge. All rights reserved.
+    © 2025 Arcoria. All rights reserved.
   </div>
 </footer>
 

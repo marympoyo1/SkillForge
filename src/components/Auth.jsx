@@ -35,7 +35,7 @@ function Auth({ onAuthChange }) {
     <div className="bg-green-50 min-h-screen px-6 py-10">
       {/* Navbar */}
       <div className="flex justify-between items-center mb-12 px-4">
-        <h1 className="text-2xl font-bold text-green-600">SkillForge</h1>
+        <h1 className="text-2xl font-bold text-green-600">Arcoria</h1>
         <div className="space-x-3">
           <button
             onClick={handleGoogleSignIn}
@@ -57,7 +57,7 @@ function Auth({ onAuthChange }) {
         {/* Info + Lottie */}
         <div className="max-w-md text-left space-y-4">
           <h2 className="text-4xl font-extrabold text-green-600">
-            Welcome to <span className="text-gray-900">SkillForge</span>
+            Welcome to <span className="text-gray-900">Arcoria</span>
           </h2>
           <p className="text-gray-700 text-lg">
             Learn the skills you need to level up in tech. Get curated YouTube tutorials, track progress, and follow roadmaps built for beginners.
@@ -77,7 +77,7 @@ function Auth({ onAuthChange }) {
       {/* Password Reset */}
       <div className="max-w-md mx-auto mt-10">
         <div className="bg-white shadow-md rounded p-6">
-          <h3 className="text-lg font-bold text-gray-800 mb-2">Sign in to SkillForge</h3>
+          <h3 className="text-lg font-bold text-gray-800 mb-2">Sign in to Arcoria</h3>
           <button
             onClick={handleGoogleSignIn}
             className="w-full bg-green-500 text-white py-2 rounded hover:bg-green-600 mb-4"

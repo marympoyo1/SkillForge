@@ -7,7 +7,7 @@ const Welcome = () => {
   return (
     <div className="min-h-screen bg-green-50 flex flex-col items-center justify-center px-4 text-center">
       <h1 className="text-4xl font-bold text-green-600 mb-4">
-        Welcome to SkillForge! 
+        Welcome to Arcoria! 
       </h1>
       <p className="text-lg text-gray-700 max-w-xl mb-6">
         You’ve successfully signed in. From here, you can explore your dashboard, start a new learning path, or continue where you left off.

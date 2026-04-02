@@ -52,7 +52,7 @@ const LoginForm = () => {
         <div className="hidden lg:flex w-1/2 bg-green-100 p-10 items-center justify-center">
           <div className="text-center">
             <h2 className="text-3xl font-extrabold text-green-600 mb-4">Welcome Back!</h2>
-            <p className="text-gray-700">Log in and continue your SkillForge journey.</p>
+            <p className="text-gray-700">Log in and continue your Arcoria journey.</p>
             <img src="/login-graphic.svg" alt="login" className="mt-6 max-w-xs" />
           </div>
         </div>

@@ -12,9 +12,9 @@ import { getFirestore } from 'firebase/firestore'; // ✅ Firestore import
 
 const firebaseConfig = {
   apiKey: "AIzaSyC5dkaSXuRgMmmkHESUuf9mUDtV5aZmvbs",
-  authDomain: "skillforge-3b79b.firebaseapp.com",
-  projectId: "skillforge-3b79b",
-  storageBucket: "skillforge-3b79b.firebasestorage.app",
+  authDomain: "arcoria-3b79b.firebaseapp.com",
+  projectId: "arcoria-3b79b",
+  storageBucket: "arcoria-3b79b.firebasestorage.app",
   messagingSenderId: "893373610018",
   appId: "1:893373610018:web:e700df773808a56a13327b",
   measurementId: "G-0BSZS1SDFW"

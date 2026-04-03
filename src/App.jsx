@@ -7,7 +7,6 @@ import Navbar from './components/Navbar';
 import LoginPage from './components/LoginPage';
 import ChooseSkill from './pages/ChooseSkill';
 import CourseDetail from './pages/CourseDetail';
-import LearnMore from './pages/LearnMore';
 import WelcomePage from './pages/WelcomePage';
 import StatePanel from './components/StatePanel';
 import { auth } from './firebaseConfig';
@@ -40,7 +39,6 @@ function App() {
         <Routes>
           <Route path="/" element={isLoggedIn ? <Navigate to="/dashboard" replace /> : <Home />} />
           <Route path="/login" element={<LoginPage setIsLoggedIn={setIsLoggedIn} />} />
-          <Route path="/learn-more" element={<LearnMore />} />
           {isLoggedIn ? (
             <>
               <Route path="/welcome" element={<WelcomePage />} />

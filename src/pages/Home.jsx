@@ -32,12 +32,6 @@ const Home = () => {
               >
                 Get Started
               </button>
-              <button
-                onClick={() => navigate('/learn-more')}
-                className="btn-secondary px-6"
-              >
-                How It Works
-              </button>
             </div>
           </div>
 
@@ -103,7 +97,6 @@ const Home = () => {
             <ul className="space-y-1 text-[11px] text-slate-500">
               <li><a href="/" className="hover:text-slate-700 hover:underline">Home</a></li>
               <li><a href="/login" className="hover:text-slate-700 hover:underline">Get Started</a></li>
-              <li><a href="/learn-more" className="hover:text-slate-700 hover:underline">How It Works</a></li>
             </ul>
           </div>
 
